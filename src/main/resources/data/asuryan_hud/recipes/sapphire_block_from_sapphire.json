@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "asuryan_hud:sapphire"
+		}
+	},
+	"result": {
+		"item": "asuryan_hud:sapphire_block"
+	}
+}

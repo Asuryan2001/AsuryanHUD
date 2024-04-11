@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{
+			"item": "asuryan_hud:sapphire_block"
+		}
+	],
+	"result": {
+		"item": "asuryan_hud:sapphire",
+		"count": 9
+	}
+}
