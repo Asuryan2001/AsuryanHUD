@@ -1,5 +1,7 @@
 {
 	"item.asuryan_hud.sapphire": "Sapphire",
 	"item.asuryan_hud.raw_sapphire": "Raw Sapphire",
-	"creativetab.tutorial_tab": "Sapphire Tutorial Tab"
+	"creativetab.tutorial_tab": "Sapphire Tutorial Tab",
+	"block.asuryan_hud.sapphire_block": "Block of Sapphire",
+	"raw_sapphire_block": "Block of Raw Sapphire"
 }
