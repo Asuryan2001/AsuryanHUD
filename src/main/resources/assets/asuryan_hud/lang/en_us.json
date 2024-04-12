@@ -3,9 +3,10 @@
 	"item.asuryan_hud.raw_sapphire": "Raw Sapphire",
 	"creativetab.tutorial_tab": "Sapphire Tutorial Tab",
 	"block.asuryan_hud.sapphire_block": "Block of Sapphire",
-	"raw_sapphire_block": "Block of Raw Sapphire",
-	"sapphire_ore": "Sapphire Ore",
-	"deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-	"nether_sapphire_ore": "Nether Sapphire Ore",
-	"end_stone_sapphire_ore": "Endstone Sapphire Ore"
+	"block.asuryan_hud.raw_sapphire_block": "Block of Raw Sapphire",
+	"block.asuryan_hud.sapphire_ore": "Sapphire Ore",
+	"block.asuryan_hud.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+	"block.asuryan_hud.nether_sapphire_ore": "Nether Sapphire Ore",
+	"block.asuryan_hud.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+	"item.asuryan_hud.metal_detector": "Metal detector"
 }
