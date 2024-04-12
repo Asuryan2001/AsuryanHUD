@@ -3,10 +3,10 @@
 	"item.asuryan_hud.raw_sapphire": "Saphire brut",
 	"creativetab.tutorial_tab": "Sapphire",
 	"block.asuryan_hud.sapphire_block": "Bloc de sapphire",
-	"raw_sapphire_block": "Block de sapphire brut",
-	"sapphire_ore": "Minerai de sapphire",
-	"deepslate_sapphire_ore": "Minerai de sapphire des abîmes",
-	"nether_sapphire_ore": "Minerai de sapphire du Nether",
-	"end_stone_sapphire_ore": "Minerai de sapphire de l'End",
-	"metal_detector": "Détecteur de métal"
+	"block.asuryan_hud.raw_sapphire_block": "Block de sapphire brut",
+	"block.asuryan_hud.sapphire_ore": "Minerai de sapphire",
+	"block.asuryan_hud.deepslate_sapphire_ore": "Minerai de sapphire des abîmes",
+	"block.asuryan_hud.nether_sapphire_ore": "Minerai de sapphire du Nether",
+	"block.asuryan_hud.end_stone_sapphire_ore": "Minerai de sapphire de l'End",
+	"item.asuryan_hud.metal_detector": "Détecteur de métal"
 }
