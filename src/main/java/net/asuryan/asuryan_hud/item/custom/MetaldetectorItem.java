@@ -41,7 +41,7 @@ public class MetaldetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found" + I18n.get(block.getDescriptionId()) + " at " + blockPos.getX() + "/" + blockPos.getY() + "/" + blockPos.getZ()));
+        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " + blockPos.getX() + "/" + blockPos.getY() + "/" + blockPos.getZ()));
     }
 
     private boolean isValuableBlock(BlockState state) {
