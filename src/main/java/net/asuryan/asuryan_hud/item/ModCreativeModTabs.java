@@ -2,6 +2,7 @@ package net.asuryan.asuryan_hud.item;
 
 import net.asuryan.asuryan_hud.AsuryanHUD;
 import net.asuryan.asuryan_hud.block.ModBlocks;
+import net.asuryan.asuryan_hud.block.custom.SoundBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,13 +23,14 @@ public class ModCreativeModTabs {
                         .displayItems((pParameters, pOutput) -> {
                             pOutput.accept(ModItems.SAPPHIRE.get());
                             pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                            pOutput.accept(ModItems.METAL_DETECTOR.get());
                             pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                             pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                             pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                             pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                             pOutput.accept(ModBlocks.NETHER_SAPPHIRE_ORE.get());
                             pOutput.accept(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
+                            pOutput.accept(ModItems.METAL_DETECTOR.get());
+                            pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         })
                         .build());
 

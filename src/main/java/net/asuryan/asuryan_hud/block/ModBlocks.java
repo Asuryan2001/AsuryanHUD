@@ -1,6 +1,7 @@
 package net.asuryan.asuryan_hud.block;
 
 import net.asuryan.asuryan_hud.AsuryanHUD;
+import net.asuryan.asuryan_hud.block.custom.SoundBlock;
 import net.asuryan.asuryan_hud.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -38,6 +39,7 @@ public class ModBlocks {
             UniformInt.of(3, 6),
             BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE).strength(2f).requiresCorrectToolForDrops())
     );
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block", () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -8,5 +8,6 @@
 	"block.asuryan_hud.deepslate_sapphire_ore": "Minerai de sapphire des abîmes",
 	"block.asuryan_hud.nether_sapphire_ore": "Minerai de sapphire du Nether",
 	"block.asuryan_hud.end_stone_sapphire_ore": "Minerai de sapphire de l'End",
-	"item.asuryan_hud.metal_detector": "Détecteur de métal"
+	"item.asuryan_hud.metal_detector": "Détecteur de métal",
+	"block.asuryan_hud.sound_block": "Bloc de son"
 }
