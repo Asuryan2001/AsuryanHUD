@@ -2,7 +2,6 @@ package net.asuryan.asuryan_hud.item;
 
 import net.asuryan.asuryan_hud.AsuryanHUD;
 import net.asuryan.asuryan_hud.block.ModBlocks;
-import net.asuryan.asuryan_hud.block.custom.SoundBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
