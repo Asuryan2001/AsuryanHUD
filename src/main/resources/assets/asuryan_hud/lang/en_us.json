@@ -11,5 +11,6 @@
 	"item.asuryan_hud.pine_cone": "Pine cone",
 	"item.asuryan_hud.raw_sapphire": "Raw Sapphire",
 	"item.asuryan_hud.sapphire": "Sapphire",
-	"item.asuryan_hud.strawberry": "Strawberry"
+	"item.asuryan_hud.strawberry": "Strawberry",
+	"tooltip.asuryan_hud.metal_detector.tooltip": "Finds metals underground"
 }
