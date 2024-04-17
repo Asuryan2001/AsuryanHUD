@@ -1,10 +1,9 @@
 package net.asuryan.asuryan_hud.item.custom;
 
-import net.asuryan.asuryan_hud.util.ModTag;
+import net.asuryan.asuryan_hud.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -13,7 +12,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 
@@ -53,7 +51,7 @@ public class MetaldetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(ModTag.Blocks.METAL_DETECTOR_VALUABLES);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 
     @Override
